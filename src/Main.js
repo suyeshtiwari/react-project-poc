@@ -10,6 +10,7 @@ import {
   import Stuff from "./Stuff";
   import Contact from "./Contact";
   import USAMap from "./USAMap";
+import GeoFence from "./container/geoFence";
 
   class Main extends Component {
     render() {
@@ -28,7 +29,7 @@ import {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/stuff" element={<Stuff/>}/>
                     <Route path="/contact" element={<Contact/>}/>
-                    <Route path="/geofence" element={<USAMap/>}/>
+                    <Route path="/geofence" element={<GeoFence />}/>
                 </Routes>
             </div>
         </div>
